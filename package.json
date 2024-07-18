@@ -1,0 +1,27 @@
+{
+  "name": "login-component-v2",
+  "version": "0.0.7",
+  "description": "My 1st package",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "type": "module",
+  "homepage": "https://www.google.com/",
+  "repository": {
+    "url": ""
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "hello-world"
+  ],
+  "author": "Nitesh Meshram",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^8.1.1",
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "@swc/core": "^1.6.13"
+  }
+}
